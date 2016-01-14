@@ -176,3 +176,23 @@ syntax keyword incarKeyword LASYNC
 highlight link incarKeyword Keyword
 
 
+
+"""""""""""""""""""""""""
+"  SYNTAX FOR COMMENTS  "
+"""""""""""""""""""""""""
+" the \v key means vim's very magic regex 
+syntax match vaspComment "\v#.*$"
+highlight link vaspComment Comment
+
+
+"""""""""""""""
+"  OPERATORS  "
+"""""""""""""""
+"In the INCAR file to assing values '=' it is used
+syntax match vaspOperator "\v\="
+highlight link vaspOperator Operator
+
+
+
+
+
