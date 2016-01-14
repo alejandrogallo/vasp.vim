@@ -22,11 +22,11 @@ syntax keyword incarKeyword INIWAV
 syntax keyword incarKeyword ENCUT
 syntax keyword incarKeyword PREC
 syntax keyword incarKeyword PREC
-syntax keyword incarKeyword NELM NELMIN and NELMDL
+syntax keyword incarKeyword NELM NELMIN NELMDL
 syntax keyword incarKeyword EDIFF
 syntax keyword incarKeyword EDIFFG
 syntax keyword incarKeyword NSW
-syntax keyword incarKeyword NBLOCK and KBLOCK
+syntax keyword incarKeyword NBLOCK KBLOCK
 syntax keyword incarKeyword IBRION
 syntax keyword incarKeyword ISIF
 syntax keyword incarKeyword IWAVPR
@@ -36,7 +36,7 @@ syntax keyword incarKeyword LCORR
 syntax keyword incarKeyword POTIM
 syntax keyword incarKeyword TEBEG TEEND
 syntax keyword incarKeyword SMASS
-syntax keyword incarKeyword NPACO and APACO
+syntax keyword incarKeyword NPACO APACO
 syntax keyword incarKeyword POMASS
 syntax keyword incarKeyword ZVAL
 syntax keyword incarKeyword RWIGS
@@ -77,11 +77,11 @@ syntax keyword incarKeyword INIWAV
 syntax keyword incarKeyword ENCUT
 syntax keyword incarKeyword PREC
 syntax keyword incarKeyword PREC
-syntax keyword incarKeyword NELM NELMIN and NELMDL
+syntax keyword incarKeyword NELM NELMIN NELMDL
 syntax keyword incarKeyword EDIFF
 syntax keyword incarKeyword EDIFFG
 syntax keyword incarKeyword NSW
-syntax keyword incarKeyword NBLOCK and KBLOCK
+syntax keyword incarKeyword NBLOCK KBLOCK
 syntax keyword incarKeyword IBRION
 syntax keyword incarKeyword ISIF
 syntax keyword incarKeyword IWAVPR
@@ -91,7 +91,7 @@ syntax keyword incarKeyword LCORR
 syntax keyword incarKeyword POTIM
 syntax keyword incarKeyword TEBEG TEEND
 syntax keyword incarKeyword SMASS
-syntax keyword incarKeyword NPACO and APACO
+syntax keyword incarKeyword NPACO APACO
 syntax keyword incarKeyword POMASS
 syntax keyword incarKeyword ZVAL
 syntax keyword incarKeyword RWIGS
@@ -131,11 +131,11 @@ syntax keyword incarKeyword INIWAV
 syntax keyword incarKeyword ENCUT
 syntax keyword incarKeyword PREC
 syntax keyword incarKeyword PREC
-syntax keyword incarKeyword NELM NELMIN and NELMDL
+syntax keyword incarKeyword NELM NELMIN NELMDL
 syntax keyword incarKeyword EDIFF
 syntax keyword incarKeyword EDIFFG
 syntax keyword incarKeyword NSW
-syntax keyword incarKeyword NBLOCK and KBLOCK
+syntax keyword incarKeyword NBLOCK KBLOCK
 syntax keyword incarKeyword IBRION
 syntax keyword incarKeyword ISIF
 syntax keyword incarKeyword IWAVPR
@@ -145,7 +145,7 @@ syntax keyword incarKeyword LCORR
 syntax keyword incarKeyword POTIM
 syntax keyword incarKeyword TEBEG TEEND
 syntax keyword incarKeyword SMASS
-syntax keyword incarKeyword NPACO and APACO
+syntax keyword incarKeyword NPACO APACO
 syntax keyword incarKeyword POMASS
 syntax keyword incarKeyword ZVAL
 syntax keyword incarKeyword RWIGS
