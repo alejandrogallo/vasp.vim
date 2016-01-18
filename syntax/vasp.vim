@@ -171,6 +171,8 @@ syntax keyword incarKeyword NPAR
 syntax keyword incarKeyword LSCALAPACK
 syntax keyword incarKeyword LSCALU
 syntax keyword incarKeyword LASYNC
+" Very new option
+syntax keyword incarKeyword LDMATRIX
 
 " Define the highlighting of incarKeyword as general Keyword
 highlight link incarKeyword Keyword
