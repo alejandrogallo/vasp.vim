@@ -198,3 +198,33 @@ highlight link vaspOperator Operator
 
 
 
+
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"                               POSCAR SYNTAX                                "
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+ 
+"
+" REF: http://cms.mpi.univie.ac.at/vasp/guide/node59.html
+"
+
+syntax match vaspComment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
