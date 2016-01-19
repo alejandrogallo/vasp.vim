@@ -7,22 +7,5 @@ if exists("b:current_syntax")
 endif
 let b:current_syntax = "poscar"
 
-syntax match vaspComment
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+syntax match poscarComment "\v%1"
+highlight link poscarComment Comment
