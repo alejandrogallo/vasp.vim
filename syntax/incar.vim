@@ -166,6 +166,8 @@ syntax keyword incarKeyword NPAR
 syntax keyword incarKeyword LSCALAPACK
 syntax keyword incarKeyword LSCALU
 syntax keyword incarKeyword LASYNC
+syntax keyword incarKeyword LHFCALC
+syntax keyword incarKeyword AEXX
 " Very new option
 syntax keyword incarKeyword LDMATRIX
 
