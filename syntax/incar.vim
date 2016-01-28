@@ -168,6 +168,8 @@ syntax keyword incarKeyword LSCALU
 syntax keyword incarKeyword LASYNC
 syntax keyword incarKeyword LHFCALC
 syntax keyword incarKeyword AEXX
+syntax keyword incarKeyword FERWE
+syntax keyword incarKeyword FERDO
 " Very new option
 syntax keyword incarKeyword LDMATRIX
 
