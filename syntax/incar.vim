@@ -197,3 +197,10 @@ highlight link incarComment Comment
 "In the INCAR file to assing values '=' it is used
 syntax match incarOperator "\v\="
 highlight link incarOperator Operator
+
+syntax keyword incarBoolean .TRUE. .FALSE.
+highlight link incarBoolean Boolean
+
+syntax keyword incarConstant NONE
+highlight link incarConstant Constant
+
