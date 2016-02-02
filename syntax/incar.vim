@@ -188,6 +188,7 @@ highlight link incarKeyword Keyword
 """""""""""""""""""""""""
 " the \v key means vim's very magic regex 
 syntax match incarComment "\v#.*$"
+syntax match incarComment "\v!.*$"
 highlight link incarComment Comment
 
 
@@ -198,9 +199,7 @@ highlight link incarComment Comment
 syntax match incarOperator "\v\="
 highlight link incarOperator Operator
 
-syntax keyword incarBoolean .TRUE. .FALSE.
-highlight link incarBoolean Boolean
-
+syntax keyword incarConstant .TRUE. .FALSE.
 syntax keyword incarConstant NONE
 highlight link incarConstant Constant
 
