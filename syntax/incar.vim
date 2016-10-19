@@ -177,6 +177,10 @@ syntax keyword incarKeyword VALUE_MIN
 syntax keyword incarKeyword WC
 syntax keyword incarKeyword WEIMIN
 syntax keyword incarKeyword LDMATRIX
+syntax keyword incarKeyword LORBITALREAL
+syntax keyword incarKeyword LNONCOLLINEAR
+syntax keyword incarKeyword LSORBIT
+
 
 " Define the highlighting of incarKeyword as general Keyword
 highlight link incarKeyword Keyword
@@ -199,7 +203,15 @@ highlight link incarComment Comment
 syntax match incarOperator "\v\="
 highlight link incarOperator Operator
 
-syntax keyword incarConstant .TRUE. .FALSE.
+"""""""""""""""
+"  CONSTANTS  "
+"""""""""""""""
+syntax keyword incarConstant Eigenval
+syntax keyword incarConstant C
 syntax keyword incarConstant NONE
+syntax match incarConstant ".TRUE."
+syntax match incarConstant ".FALSE."
+syntax match incarConstant "\v[0-9]+E?-?[0-9]*$"
+
 highlight link incarConstant Constant
 
