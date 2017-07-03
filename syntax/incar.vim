@@ -180,6 +180,7 @@ syntax keyword incarKeyword LDMATRIX
 syntax keyword incarKeyword LORBITALREAL
 syntax keyword incarKeyword LNONCOLLINEAR
 syntax keyword incarKeyword LSORBIT
+syntax keyword incarKeyword LPARD
 
 
 " Define the highlighting of incarKeyword as general Keyword
