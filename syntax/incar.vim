@@ -181,6 +181,8 @@ syntax keyword incarKeyword LORBITALREAL
 syntax keyword incarKeyword LNONCOLLINEAR
 syntax keyword incarKeyword LSORBIT
 syntax keyword incarKeyword LPARD
+syntax keyword incarKeyword LSEPB
+syntax keyword incarKeyword IBAND
 
 
 " Define the highlighting of incarKeyword as general Keyword
@@ -212,7 +214,7 @@ syntax keyword incarConstant C
 syntax keyword incarConstant NONE
 syntax match incarConstant ".TRUE."
 syntax match incarConstant ".FALSE."
-syntax match incarConstant "\v[0-9]+E?-?[0-9]*$"
+syntax match incarConstant "\v(([0-9]*\.)?[0-9]+E?-?[0-9]*\s?)*$"
 
 highlight link incarConstant Constant
 
