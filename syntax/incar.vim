@@ -58,4 +58,3 @@ syntax match incarConstant ".FALSE."
 syntax match incarConstant "\v(([0-9]*\.)?[0-9]+E?-?[0-9]*\s?)*$"
 
 highlight link incarConstant Constant
-

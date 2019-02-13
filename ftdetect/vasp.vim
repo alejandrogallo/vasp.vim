@@ -9,3 +9,6 @@ autocmd BufNewFile,BufRead POSCAR.* set filetype=poscar
 " KPOINTS filetype detection
 autocmd BufNewFile,BufRead KPOINTS set filetype=kpoints
 autocmd BufNewFile,BufRead KPOINTS.* set filetype=kpoints
+"
+" POSCAR filetype detection
+autocmd BufNewFile,BufRead OUTCAR,OUTCAR.* set filetype=outcar
